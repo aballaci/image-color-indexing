@@ -1,0 +1,20 @@
+{
+  "name": "color-theaf-example",
+  "version": "1.0.0",
+  "description": "get a palete of colors from an image",
+  "main": "index.js",
+  "scripts": {
+    "serve" : "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "color",
+    "theaf"
+  ],
+  "author": "Armand Ballaci",
+  "license": "ISC",
+  "dependencies": {
+    "get-pixels": "3.3.2",
+    "quantize": "1.0.2"
+  }
+}
